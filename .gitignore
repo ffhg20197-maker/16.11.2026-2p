@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.env
+*.enc
+*.sql.gz
+permissions-*.csv
+fim.log

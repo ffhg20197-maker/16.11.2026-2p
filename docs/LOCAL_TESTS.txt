@@ -1,0 +1,16 @@
+CMS Shield — проверки проекта
+Дата: 16.11.2026
+
+Локально выполнены:
+- python3 -m unittest discover -s tests -v — 1 тест пройден.
+- bash -n scripts/audit_permissions.sh scripts/backup.sh — синтаксис корректен.
+- python3 -m py_compile scripts/fim.py — компиляция успешна.
+
+Не выполнялись без тестового сервера:
+- проверка HTTP 403 для wp-config.php;
+- проверка запрета PHP в uploads;
+- SHOW GRANTS в реальной MySQL;
+- HTTPS/HSTS и cookie flags;
+- интеграционный тест ModSecurity/OWASP CRS;
+- создание и восстановление production backup.
+Скриншот сайта — демонстрационный макет интерфейса, не скриншот работающего WordPress-сервера.
