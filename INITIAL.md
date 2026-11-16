@@ -1,0 +1,1 @@
+CMS Shield project initialization. The complete project is added in the next commit.
